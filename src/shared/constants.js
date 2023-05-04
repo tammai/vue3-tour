@@ -9,6 +9,7 @@ export const DEFAULT_CALLBACKS = {
 
 export const DEFAULT_OPTIONS = {
   highlight: false,
+  trigger: 'click',
   labels: {
     buttonSkip: 'Skip tour',
     buttonPrevious: 'Previous',

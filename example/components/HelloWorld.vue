@@ -2,7 +2,10 @@
   <h1>{{ msg }}</h1>
 
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite Documentation</a> |
+    <a href="https://vitejs.dev/guide/features.html" target="_blank"
+      >Vite Documentation</a
+    >
+    |
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
   </p>
 
@@ -10,11 +13,11 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
+import { defineProps } from "vue";
 
 defineProps({
-  msg: String
-})
+  msg: String,
+});
 </script>
 
 <style scoped>
